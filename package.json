@@ -1,0 +1,25 @@
+{
+  "name": "wechat-js-sdk",
+  "version": "0.0.1",
+  "description": "微信 JS SDK 封装(小程序/公众号网页)",
+  "main": "index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "wechat-js-sdk",
+    "wechat",
+    "js-sdk"
+  ],
+  "author": {
+    "name": "Meng",
+    "email": "meng.liu1@bthome.com"
+  },
+  "homepage": "https://github.com/azkbo/wechat-js-sdk",
+  "bugs": {
+    "url": "https://github.com/azkbo/wechat-js-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azkbo/wechat-js-sdk"
+  },
+  "license": "ISC"
+}

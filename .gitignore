@@ -1,0 +1,13 @@
+node_modules/
+npm-debug.log
+public/app.*.css
+public/vendors.*.css
+public/scripts
+public/img
+public/*.min.js
+public/app.*.css.map
+public/*.min.js.map
+public/index.html
+.idea
+yarn-error.log
+.DS_Store
