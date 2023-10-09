@@ -115,12 +115,12 @@ export declare class Wechat {
   /**
    * 判断当前客户端容器平台
    */
-  public static platformApp(list: string[]): Promise<string>;
+  public static platformApp(list: string[]): string;
 
   /**
    * 关闭当前网页窗口接口
    */
-  public static closeWindow(): Promise<Result>;
+  public static closeWindow(): void;
 
   /**
    * 拍照或从手机相册中选图接口
@@ -220,25 +220,25 @@ export declare class Wechat {
   /**
    * 监听查找周边ibeacon设备接口
    */
-  public static onSearchBeacons(callback: (res: any) => void): Promise<Result>;
+  public static onSearchBeacons(callback: (res: any) => void): void;
 
   /**
    * 隐藏右上角菜单
    */
-  public static hideOptionMenu(): Promise<Result>;
+  public static hideOptionMenu(): void;
 
   /**
    * 显示右上角菜单
    */
-  public static showOptionMenu(): Promise<Result>;
+  public static showOptionMenu(): void;
   /**
    * 批量隐藏功能按钮接口
    */
-  public static hideMenuItems(menuList: string[]): Promise<Result>;
+  public static hideMenuItems(menuList: string[]): void;
   /**
    * 批量显示功能按钮接口
    */
-  public static showMenuItems(menuList: string[]): Promise<Result>;
+  public static showMenuItems(menuList: string[]): void;
 
   /**
    * 调起微信扫一扫接口
@@ -258,24 +258,24 @@ export declare class Wechat {
   /**
    * 监听语音播放完毕接口
    */
-  public static onVoicePlayEnd(callback: (res: any) => void): Promise<Result>;
+  public static onVoicePlayEnd(callback: (res: any) => void): void;
 
   /**
    * 监听录音自动停止接口
    */
-  public static onVoiceRecordEnd(callback: (res: any) => void): Promise<Result>;
+  public static onVoiceRecordEnd(callback: (res: any) => void): void;
 
   // public static onMenuShareQZone(): Promise<Result>;
 
   /**
    * 隐藏所有非基础按钮接口
    */
-  public static hideAllNonBaseMenuItem(): Promise<Result>;
+  public static hideAllNonBaseMenuItem(): void;
 
   /**
    * 显示所有功能按钮接口
    */
-  public static showAllNonBaseMenuItem(): Promise<Result>;
+  public static showAllNonBaseMenuItem(): void;
 
   /**
    * 分享到朋友圈
