@@ -74,12 +74,12 @@ type ProductBody = {
 };
 
 type CradBody = {
-  shopId: string; // 门店Id
-  cardType: string; // 卡券类型
-  cardId: string; // 卡券Id
+  // shopId: string; // 门店Id
+  // cardType: string; // 卡券类型
+  // cardId: string; // 卡券Id
   timestamp: number; // 卡券签名时间戳
   nonceStr: string; // 卡券签名随机串
-  signType: string; // 签名方式，默认'SHA1'
+  // signType: string; // 签名方式，默认'SHA1'
   cardSign: string; // 卡券签名
 };
 
