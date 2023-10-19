@@ -1,5 +1,5 @@
 {
-  "name": "wechat-js-sdk",
+  "name": "wechat-jsdk",
   "version": "0.0.1",
   "description": "微信 JS SDK 封装(小程序/公众号网页)",
   "main": "index.d.ts",
