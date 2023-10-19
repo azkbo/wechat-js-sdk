@@ -3,6 +3,10 @@
  * Date: 2023-10-08
  * Modify: 2023-10-08
  * Desc:
+ * 顺序检查：
+确认config正确通过。
+如果是在页面加载好时就调用了JSAPI，则必须写在wx.ready的回调中。
+确认config的jsApiList参数包含了这个JSAPI。
  */
 
 // 返回结果
@@ -210,7 +214,7 @@ export declare class Wechat {
   /**
    * 开启查找周边ibeacon设备接口
    */
-  public static startSearchBeacons(ticket: string): Promise<Result>;
+  public static startSearchBeacons(ticket?: string): Promise<Result>;
 
   /**
    * 关闭查找周边ibeacon设备接口
@@ -225,12 +229,12 @@ export declare class Wechat {
   /**
    * 隐藏右上角菜单
    */
-  public static hideOptionMenu(): void;
+  public static hideOptionMenu(menuList?: string[]): void;
 
   /**
    * 显示右上角菜单
    */
-  public static showOptionMenu(): void;
+  public static showOptionMenu(menuList?: string[]): void;
   /**
    * 批量隐藏功能按钮接口
    */
